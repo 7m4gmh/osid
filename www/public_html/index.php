@@ -19,7 +19,7 @@ if (isset($_POST['WriteImage'])) {
         $DeviceList .= "of=/dev/" . $DeviceName . " ";
         
         //put device into variable for unmounting of drives
-        $UmountList .= "/usr/bin/umount /dev/" . $DeviceName . " & ";
+        $UmountList .= exec("which umount") . " /dev/" . $DeviceName . " & ";
         
     } //END create device list from checkbox array
     
