@@ -62,7 +62,10 @@ if (isset($_POST['WriteImage'])) {
 	<title>Open Source Image Duplicator</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        
 	<!-- Mobile Specific Metas
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
